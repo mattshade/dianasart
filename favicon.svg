@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="flow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B9AC4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#85B2D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8D8F0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flow2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C4B5A7;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#9B8B7E;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#FDFCFB"/>
+  
+  <!-- Flow art waves -->
+  <path d="M 20 35 Q 30 25, 40 35 T 60 35 T 80 35" 
+        fill="none" stroke="url(#flow1)" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+  <path d="M 15 50 Q 28 40, 41 50 T 67 50 T 93 50" 
+        fill="none" stroke="url(#flow1)" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 20 65 Q 35 55, 50 65 T 80 65" 
+        fill="none" stroke="url(#flow2)" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Circular border -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#6B9AC4" stroke-width="2" opacity="0.3"/>
+
+  <!-- Serif lowercase d -->
+  <text x="50" y="62" 
+        dominant-baseline="middle" 
+        text-anchor="middle" 
+        font-family="serif" 
+        font-size="110" 
+        fill="#4A4845" 
+        font-weight="500">d</text>
+</svg>
